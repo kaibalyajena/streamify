@@ -14,8 +14,7 @@ import {
   Lock,
   LogOut,
   Brush,
-  Search,
-  Logo,
+  Search
 } from "./Icons/Icons";
 import User from "./Icons/User";
 // Add this function above your existing code to create a new IconWrapper component
@@ -104,7 +103,7 @@ export default function Navbar({ children }: NavbarProps) {
     {
       icon: (className) => <MessagePlusSquare className={className} />,
       name: "Feedback",
-      path: `mailto:vidchill@vidchill.com`,
+      path: `mailto:streamify@streamify.com`,
       lineAbove: false,
     },
     {
@@ -149,7 +148,10 @@ export default function Navbar({ children }: NavbarProps) {
         <div className="mx-auto flex max-w-full px-6 lg:px-16 xl:grid xl:grid-cols-12">
           <div className="flex flex-shrink-0 items-center lg:static xl:col-span-2">
             <Link href="/#" aria-label="Home">
-              <Logo className="h-10" />
+            <div style={{fontSize: '20px',fontWeight:'800', color:"#30D5C8", marginRight:"4rem"}}>
+             Streamify
+            </div>
+              
             </Link>
           </div>
           <div className="w-full min-w-0 flex-1 lg:px-0 xl:col-span-8">

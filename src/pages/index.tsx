@@ -29,10 +29,10 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Vidchill</title>
+        <title>Streamify</title>
         <meta
           name="description"
-          content=" Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on VidChill."
+          content=" Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on Streamify."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

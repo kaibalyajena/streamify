@@ -20,7 +20,6 @@ import {
   LogOut,
   Close,
 } from "./Icons/Icons";
-import { Logo } from "./Icons/Logo";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { UserImage } from "./Components";
@@ -115,7 +114,7 @@ export default function Sidebar({
     },
     {
       name: "Feedback",
-      path: `mailto:vidchill@vidchill.com`,
+      path: `mailto:streamify@streamify.com`,
       icon: (className) => <MessagePlusSquare className={className} />,
       current: router.pathname === `/Feedback`,
     },
@@ -130,7 +129,7 @@ export default function Sidebar({
 
     {
       name: "Feedback",
-      path: `mailto:vidchill@vidchill.com`,
+      path: `mailto:streamify@streamify.com`,
       icon: (className) => <MessagePlusSquare className={className} />,
       current: router.pathname === `/Feedback`,
     },
@@ -283,7 +282,6 @@ export default function Sidebar({
                 <div className=" flex grow  flex-col gap-y-5 overflow-y-auto border-r  border-gray-200 bg-white  px-6 pb-4">
                   <nav className="flex flex-1 flex-col pt-4">
                     <ul role="list" className="flex flex-1 flex-col gap-y-4">
-                      <Logo className="w-24" />
                       <li className="border-t">
                         <ul role="list" className="-mx-2 space-y-1  pt-3 ">
                           {mobileNavigation.map((item) => (
